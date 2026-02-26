@@ -1,0 +1,110 @@
+:root {
+    --Gold_500: hsl(31, 77%, 52%);
+    --Cyan_800: hsl(184, 100%, 22%);
+    --Green_950: hsl(179, 100%, 13%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.card {
+    display: flex;
+    height: 400px;
+    width: 750px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.learn_more {
+    background-color: white;
+    width: 125px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    margin: auto auto 30px 30px;
+    border-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease;
+
+}
+
+.sedans, .suvs, .luxury {
+    display: flex;
+    width: 250px;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.sedans {
+    background-color: var(--Gold_500);
+    border-radius: 10px 0 0 10px;
+}
+
+.img_sedans, .img_suvs, .img_luxury {
+    height: 40px;
+    width: 65px;
+    margin: 30px 0 0 30px;
+}
+
+.name_sedans, .name_suvs, .name_luxury {
+    font-family: "Big Shoulders", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin: 30px 0 0 30px
+}
+
+.sedans_text, .suvs_text, .luxury_text {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    margin: 15px 50px 0 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.suvs {
+    background-color: var(--Cyan_800);
+}
+
+.luxury {
+    background-color: var(--Green_950);
+    border-radius: 10px 10px;
+}
+
+.learn_more_sedans {
+    color: var(--Gold_500);
+}
+
+.learn_more_sedans:hover {
+    background-color: var(--Gold_500);
+    color: white;
+    border: 2px solid white ;
+
+}
+
+.learn_more_suvs {
+    color: var(--Cyan_800);
+}
+
+.learn_more_suvs:hover {
+    background-color: var(--Cyan_800);
+    color: white;
+    border: 2px solid white ;
+}
+
+.learn_more_luxury {
+    color: var(--Cyan_800);
+}
+
+.learn_more_luxury:hover {
+    background-color: var(--Green_950);
+    color: white;
+    border: 2px solid white ;
+}
