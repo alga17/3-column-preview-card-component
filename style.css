@@ -76,7 +76,7 @@ body {
 
 .luxury {
     background-color: var(--Green_950);
-    border-radius: 10px 10px;
+    border-radius: 0px 10px 10px 0;
 }
 
 .learn_more_sedans {
@@ -110,3 +110,4 @@ body {
     border: 2px solid white ;
 
 }
+
